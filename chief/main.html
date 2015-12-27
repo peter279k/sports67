@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>運動會第67屆康樂股長專區</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/jquery-theme.css" />
+  <link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+  <link rel="stylesheet" href="../css/chief_main.css" />
+  <link href="../css/alertify.css" rel="stylesheet">
+  <script src="../js/jquery-1.11.1.min.js"></script> 
+  <script src="../js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="../js/alertify.js"></script>
+  <script src="../js/chief_main.js"></script>
+</head>
+<body>
+	<div id="main-page" data-role="page" class="ui-responsive-panel">
+		<div data-role="header">
+			<a data-icon="back" id="logon-action" data-theme="b" data-ajax="false">登出</a>
+			<h1>賽事報名</h1>
+		</div>
+		<div id="main-content" role="main" class="ui-content jqm-content jqm-fullwidth">
+			<fieldset class="ui-grid-b">
+				<div class="ui-block-a"><select id="contest-list"></select></div>
+				<div class="ui-block-b"><a id="produce-signup-form" data-role="button" href="#">產生報名表</a></div>
+				<!--<div class="ui-block-c"><a id="produce-signup-form" data-role="button" data-theme="c" href="#">列印報名表</a></div>-->
+				<div class="ui-block-c"><a id="delete-form" data-role="button" data-theme="b" href="#">查詢與刪除報名</a></div>
+			</fieldset>
+			<form id="signup-form"></form>
+			<table data-role="table" id="search-result-table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a"></table>
+		</div>
+	</div>
+</body>

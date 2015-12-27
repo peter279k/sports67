@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>國立臺東大學67週年校慶運動會</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/jquery-theme.css" />
+  <link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+  <link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+  <link href="../css/alertify.css" rel="stylesheet">
+  <script src="../js/jquery-1.11.1.min.js"></script> 
+  <script src="../js/jquery.mobile-1.4.5.min.js"></script> 
+  <script src="../js/alertify.js"></script>
+  <script src="../js/lightrun.js"></script>
+</head>
+<body>
+	<div id="main-page" data-role="page" class="ui-responsive-panel">
+		<div data-role="header">
+			<a href="/sports/67/" data-ajax="false" data-icon="arrow-l">回上頁</a>
+			<h1>螢光路跑報名</h1>
+		</div>
+		
+		<div id="main-content" role="main" class="ui-content jqm-content jqm-fullwidth">
+			<form id="lightrun_form">
+				<label for="stu-number">您的學號:</label>
+					<input id="stu-number" type="text" readonly>
+				<label for="cloth-size">請選擇衣服尺寸:</label>
+					<select id="cloth-size">
+						<option value="3XS">3Xs</option>
+						<option value="2XS">2XS</option>
+						<option value="XS">XS</option>
+						<option value="S">S</option>
+						<option value="M">M</option>
+						<option value="L">L</option>
+						<option value="XL">XL</option>
+						<option value="2L">2L</option>
+						<option value="3L">3L</option>
+					</select>
+				<a id="signup-action" data-role="button" href="#" data-theme="b">送出</a>
+			</form>
+		</div>
+	</div>
+</body>

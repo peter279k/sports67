@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>運動會第67屆後台管理</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../css/jquery-theme.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="../css/jquery.mobile.structure-1.4.5.min.css" />
+		<link href="../css/alertify.css" rel="stylesheet">
+		<link href="../css/main.css" rel="stylesheet">
+		<script src="../js/jquery-1.11.1.min.js"></script>
+		<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="../js/alertify.js"></script>
+		<script src="../js/light_check.js"></script>
+	</head>
+	<body>
+		<div id="main-page" data-role="page" class="ui-responsive-panel">
+			<div data-role="header">
+				<a href="main.html" data-ajax="false" data-icon="arrow-l">回上一頁</a>
+				<h1>螢光路跑查詢與修改</h1>
+				<a id="logon-action" href="#" data-icon="arrow-r">登出</a>
+			</div>
+
+			<div id="main-content" role="main" class="ui-content jqm-content jqm-fullwidth">
+				<div id="fb-root"></div>
+					<label for="lightrun-stu-number">請輸入報名人的學號: </label>
+					<input id="lightrun-stu-number" type="text">
+					<a id="search-action" href="#" data-role="button">送出</a>
+				<table data-role="table" id="lightrun-signup-table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Columns to display..." data-column-popup-theme="a"></table>
+			</div>
+		</div>
+	</body>
